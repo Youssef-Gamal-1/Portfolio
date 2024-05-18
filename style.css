@@ -479,7 +479,7 @@ form {
     }
     @media (max-width: 700px) {
         input, textarea {
-            width: 70%;
+            width: 90%;
         }
     }
     textarea {
