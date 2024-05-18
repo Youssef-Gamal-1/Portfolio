@@ -469,7 +469,7 @@ form {
     }
     @media (max-width: 700px) {
         input, textarea {
-            width: 80%;
+            width: 70%;
         }
     }
     textarea {
@@ -490,7 +490,7 @@ form {
 }
 /* footer */
 footer {
-    padding: 80px;
+    padding: 80px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -503,7 +503,7 @@ footer {
 }
 @media (max-width: 700px) {
     footer {
-        font-size: 1.8rem
+        font-size: 1.6rem
     }
 }
 /* animation */
