@@ -353,12 +353,17 @@ span {
     grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
     gap: 30px 20px;
     padding: 0 80px;
-    max-width: 95%;
+    max-width: 100%;
     justify-content: center;
 }
 @media (max-width: 700px) {
     .projects .projects-boxes {
-        padding-left: 15px;
+        padding: 0;
+    }
+    .projects .projects-boxes .box {
+        margin: auto;
+        width: 300px;
+        margin: auto;
     }
 }
 .projects .projects-boxes .box {
